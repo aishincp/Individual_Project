@@ -1,0 +1,37 @@
+Based on the evaluation metrics for the testing data, here are the results:
+
+Evaluation Metrics - Person Sitting:
+
+Accuracy: 0.9742
+Precision: 1.0
+Recall: 0.9742
+F1 Score: 0.9869
+
+Evaluation Metrics - Empty Chair:
+
+Accuracy: 0.9991
+Precision: 0.0
+Recall: 0.0
+F1 Score: 0.0
+
+
+For the "Person Sitting" category, the model achieved a high accuracy of 0.9742, indicating that it correctly classified 97.42% of instances. 
+The precision is 1.0, meaning that all instances classified as "Person Sitting" were indeed correct. 
+The recall is also high at 0.9742, indicating that the model captured 97.42% of the actual "Person Sitting" instances. 
+The F1 score combines precision and recall, and in this case, it is 0.9869, which is a good overall measure of the model's performance for the "Person Sitting" category.
+
+
+
+
+
+
+
+However, for the "Empty Chair" category, the results are different. 
+The accuracy is very high at 0.9991, indicating that the model correctly classified 99.91% of instances. 
+However, the precision, recall, and F1 score are all 0.0, suggesting that the model did not correctly identify any instances of the "Empty Chair" category. 
+This could be due to a lack of positive examples in the training data for the "Empty Chair" category, leading to the model not learning how to distinguish it effectively.
+
+
+
+In summary, the model performs well for the "Person Sitting" category, but it struggles with the "Empty Chair" category. 
+It is important to ensure a balanced and representative training dataset to improve the model's performance for both categories.
